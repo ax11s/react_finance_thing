@@ -10,26 +10,29 @@ export default function Investing () {
     <th class="px-4 py-3">Win rate</th>
     <th class="px-4 py-3">Worst quarter</th>
     <th class="px-4 py-3">Best quarter</th>
-    <th class="px-4 py-3">Sex</th>
+    <th class="px-4 py-3">Avg. income return</th>
   </tr>
-  <tr class="border-b border-gray-200">
-    <td class="px-4 py-3">Jill</td>
-    <td class="px-4 py-3">Smith</td>
-    <td class="px-4 py-3">50</td>
-    <td class="px-4 py-3">Male</td>
+  <tr class="border-b  text-left  border-gray-200">
+    <td class="px-4   font-semibold py-3">S&P 500</td>
+    <td class="px-4 py-3">68.43%</td>
+    <td class="px-4 py-3">-19.60%</td>
+    <td class="px-4 py-3">20.54%</td>
+    <td class="px-4 py-3">2.03%</td>
   </tr>    
 
   <tr class="border-b border-gray-200">
-    <td class="px-4 py-3">Jill</td>
+    <td class="px-4 font-semibold py-3">Public REITs</td>
     <td class="px-4 py-3">Smith</td>
-    <td class="px-4 py-3">50</td>
-    <td class="px-4 py-3">Male</td>
+    <td class="px-4 py-3">-25.42%	</td>
+    <td class="px-4 py-3">16.70%	</td>
+    <td class="px-4 py-3">4.08%	</td>
   </tr>    
 
   <tr class="border-b border-gray-200">
-    <td class="px-4 py-3">Jill</td>
+    <td class="px-4 font-semibold py-3">Jill</td>
     <td class="px-4 py-3">Smith</td>
     <td class="px-4 py-3">50</td>
+    <td class="px-4 py-3">Male</td>
     <td class="px-4 py-3">Male</td>
   </tr>    
 
