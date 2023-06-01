@@ -1,44 +1,40 @@
 export default function Investing () {
     return (
         <div class="w-full">
-            <h1 class="text-xl mt-8 w-60 mx-auto text-gray-900">Top investments compared</h1>
+            <h1 class="text-2xl mt-16 w-72 mx-auto text-gray-900">Top investments compared</h1>
 
-            <div class=" mx-auto xl:w-3/4">
-  <table class="w-full mt-16">
-    <thead>
-      <tr class="border-t">
-        <th class="px-4 py-2 border-l">Column 1</th>
-        <th class="px-4 py-2">Column 2</th>
-        <th class="px-4 py-2">Column 3</th>
-        <th class="px-4 py-2">Column 4</th>
-        <th class="px-4 py-2 border-r">Column 5</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr class="border-b border-t">
-        <td class="px-4 py-2 border-l">Row 1, Cell 1</td>
-        <td class="px-4 py-2">Row 1, Cell 2</td>
-        <td class="px-4 py-2">Row 1, Cell 3</td>
-        <td class="px-4 py-2">Row 1, Cell 4</td>
-        <td class="px-4 py-2 border-r">Row 1, Cell 5</td>
-      </tr>
-      <tr class="border-b">
-        <td class="px-4 py-2 border-l">Row 2, Cell 1</td>
-        <td class="px-4 py-2">Row 2, Cell 2</td>
-        <td class="px-4 py-2">Row 2, Cell 3</td>
-        <td class="px-4 py-2">Row 2, Cell 4</td>
-        <td class="px-4 py-2 border-r">Row 2, Cell 5</td>
-      </tr>
-      <tr class="border-b">
-        <td class="px-4 py-2 border-l">Row 3, Cell 1</td>
-        <td class="px-4 py-2">Row 3, Cell 2</td>
-        <td class="px-4 py-2">Row 3, Cell 3</td>
-        <td class="px-4 py-2">Row 3, Cell 4</td>
-        <td class="px-4 py-2 border-r">Row 3, Cell 5</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+
+<table class="rounded-t-lg m-5 w-5/6 mx-auto text-gray-100   bg-orange-500">
+  <tr class="text-left border-b-2 border-gray-300">
+    <th class="px-4 py-3">Investment</th>
+    <th class="px-4 py-3">Win rate</th>
+    <th class="px-4 py-3">Worst quarter</th>
+    <th class="px-4 py-3">Best quarter</th>
+    <th class="px-4 py-3">Sex</th>
+  </tr>
+  <tr class="border-b border-gray-200">
+    <td class="px-4 py-3">Jill</td>
+    <td class="px-4 py-3">Smith</td>
+    <td class="px-4 py-3">50</td>
+    <td class="px-4 py-3">Male</td>
+  </tr>    
+
+  <tr class="border-b border-gray-200">
+    <td class="px-4 py-3">Jill</td>
+    <td class="px-4 py-3">Smith</td>
+    <td class="px-4 py-3">50</td>
+    <td class="px-4 py-3">Male</td>
+  </tr>    
+
+  <tr class="border-b border-gray-200">
+    <td class="px-4 py-3">Jill</td>
+    <td class="px-4 py-3">Smith</td>
+    <td class="px-4 py-3">50</td>
+    <td class="px-4 py-3">Male</td>
+  </tr>    
+
+
+</table>
 
 
 
