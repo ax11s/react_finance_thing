@@ -1,10 +1,10 @@
 export default function Investing () {
     return (
         <div class="w-full">
-            <h1 class="text-2xl mt-16 w-72 mx-auto text-gray-900">Top investments compared</h1>
+            <div className="container mt-16 mx-auto p-4">
+      <h1 className="text-2xl font-bold mb-4">Top investments compared</h1>
 
-
-<table class="rounded-t-lg m-5 w-5/6 mx-auto text-gray-100   bg-orange-500">
+<table class="rounded-t-lg m-5 w-full mx-auto text-gray-100   bg-orange-500">
   <tr class="text-left border-b-2 border-gray-300">
     <th class="px-4 py-3">Investment</th>
     <th class="px-4 py-3">Win rate</th>
@@ -22,7 +22,7 @@ export default function Investing () {
 
   <tr class="border-b border-gray-200">
     <td class="px-4 font-semibold py-3">Public REITs</td>
-    <td class="px-4 py-3">Smith</td>
+    <td class="px-4 py-3">69.53%</td>
     <td class="px-4 py-3">-25.42%	</td>
     <td class="px-4 py-3">16.70%	</td>
     <td class="px-4 py-3">4.08%	</td>
@@ -40,7 +40,7 @@ export default function Investing () {
 </table>
 
 
-
+</div>
         </div>
     );
 }
